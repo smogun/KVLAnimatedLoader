@@ -1,0 +1,10 @@
+PODS:
+  - KVLHelpers (0.1.7)
+
+DEPENDENCIES:
+  - KVLHelpers
+
+SPEC CHECKSUMS:
+  KVLHelpers: 48f519f7ccdb6a0ff78d228b7a29f3608a5b2cfb
+
+COCOAPODS: 0.39.0

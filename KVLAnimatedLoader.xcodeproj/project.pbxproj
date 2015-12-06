@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FE11E148379AD1194AE89AC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A1FECFBB467A175BC911C2 /* Pods.framework */; };
+		C67CA7941C143B20003123B9 /* KVLLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67CA7931C143B20003123B9 /* KVLLoaderViewController.swift */; };
+		C6BA5A531C14167200AD77F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5A521C14167200AD77F7 /* AppDelegate.swift */; };
+		C6BA5A551C14167200AD77F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5A541C14167200AD77F7 /* ViewController.swift */; };
+		C6BA5A581C14167200AD77F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BA5A561C14167200AD77F7 /* Main.storyboard */; };
+		C6BA5A5A1C14167200AD77F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BA5A591C14167200AD77F7 /* Assets.xcassets */; };
+		C6BA5A5D1C14167200AD77F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BA5A5B1C14167200AD77F7 /* LaunchScreen.storyboard */; };
+		C6BA5A681C14167200AD77F7 /* KVLAnimatedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5A671C14167200AD77F7 /* KVLAnimatedLoaderTests.swift */; };
+		C6BA5A731C14167200AD77F7 /* KVLAnimatedLoaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5A721C14167200AD77F7 /* KVLAnimatedLoaderUITests.swift */; };
+		C6BA5A811C1416EE00AD77F7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C6BA5A801C1416EE00AD77F7 /* Podfile */; };
+		C6BA5A841C1418E600AD77F7 /* KVLRotationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5A831C1418E600AD77F7 /* KVLRotationLoader.swift */; };
+		C6BA5A881C1421AD00AD77F7 /* KVLLoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5A871C1421AD00AD77F7 /* KVLLoaderProtocol.swift */; };
+		C6BA5A8A1C142CB800AD77F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BA5A891C142CB800AD77F7 /* Images.xcassets */; };
+		C6D62C801C27086100EDC48C /* KVLJumpingDotsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D62C7E1C27076A00EDC48C /* KVLJumpingDotsLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6BA5A641C14167200AD77F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6BA5A471C14167200AD77F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BA5A4E1C14167200AD77F7;
+			remoteInfo = KVLAnimatedLoader;
+		};
+		C6BA5A6F1C14167200AD77F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6BA5A471C14167200AD77F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BA5A4E1C14167200AD77F7;
+			remoteInfo = KVLAnimatedLoader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A472D38BD8B33EE282A71C91 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A6A1FECFBB467A175BC911C2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67CA7931C143B20003123B9 /* KVLLoaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVLLoaderViewController.swift; sourceTree = "<group>"; };
+		C6BA5A4F1C14167200AD77F7 /* KVLAnimatedLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVLAnimatedLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BA5A521C14167200AD77F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6BA5A541C14167200AD77F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6BA5A571C14167200AD77F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6BA5A591C14167200AD77F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6BA5A5C1C14167200AD77F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6BA5A5E1C14167200AD77F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6BA5A631C14167200AD77F7 /* KVLAnimatedLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVLAnimatedLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BA5A671C14167200AD77F7 /* KVLAnimatedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVLAnimatedLoaderTests.swift; sourceTree = "<group>"; };
+		C6BA5A691C14167200AD77F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6BA5A6E1C14167200AD77F7 /* KVLAnimatedLoaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVLAnimatedLoaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BA5A721C14167200AD77F7 /* KVLAnimatedLoaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVLAnimatedLoaderUITests.swift; sourceTree = "<group>"; };
+		C6BA5A741C14167200AD77F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6BA5A801C1416EE00AD77F7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6BA5A831C1418E600AD77F7 /* KVLRotationLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVLRotationLoader.swift; sourceTree = "<group>"; };
+		C6BA5A871C1421AD00AD77F7 /* KVLLoaderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVLLoaderProtocol.swift; sourceTree = "<group>"; };
+		C6BA5A891C142CB800AD77F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6D62C7E1C27076A00EDC48C /* KVLJumpingDotsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVLJumpingDotsLoader.swift; sourceTree = "<group>"; };
+		F90A3FE8CDDFAB5334BF71E0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6BA5A4C1C14167200AD77F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE11E148379AD1194AE89AC /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BA5A601C14167200AD77F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BA5A6B1C14167200AD77F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C5A9B18E7D739134DF24D33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A472D38BD8B33EE282A71C91 /* Pods.debug.xcconfig */,
+				F90A3FE8CDDFAB5334BF71E0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38DD28DCE4F1FAB92B68CEB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1FECFBB467A175BC911C2 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6BA5A461C14167200AD77F7 = {
+			isa = PBXGroup;
+			children = (
+				C6BA5A801C1416EE00AD77F7 /* Podfile */,
+				C6BA5A511C14167200AD77F7 /* KVLAnimatedLoader */,
+				C6BA5A661C14167200AD77F7 /* KVLAnimatedLoaderTests */,
+				C6BA5A711C14167200AD77F7 /* KVLAnimatedLoaderUITests */,
+				C6BA5A501C14167200AD77F7 /* Products */,
+				1C5A9B18E7D739134DF24D33 /* Pods */,
+				38DD28DCE4F1FAB92B68CEB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6BA5A501C14167200AD77F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA5A4F1C14167200AD77F7 /* KVLAnimatedLoader.app */,
+				C6BA5A631C14167200AD77F7 /* KVLAnimatedLoaderTests.xctest */,
+				C6BA5A6E1C14167200AD77F7 /* KVLAnimatedLoaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6BA5A511C14167200AD77F7 /* KVLAnimatedLoader */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA5A821C1418C500AD77F7 /* Loaders */,
+				C6BA5A521C14167200AD77F7 /* AppDelegate.swift */,
+				C6BA5A541C14167200AD77F7 /* ViewController.swift */,
+				C6BA5A871C1421AD00AD77F7 /* KVLLoaderProtocol.swift */,
+				C6BA5A561C14167200AD77F7 /* Main.storyboard */,
+				C6BA5A591C14167200AD77F7 /* Assets.xcassets */,
+				C6BA5A5B1C14167200AD77F7 /* LaunchScreen.storyboard */,
+				C6BA5A5E1C14167200AD77F7 /* Info.plist */,
+				C6BA5A891C142CB800AD77F7 /* Images.xcassets */,
+				C67CA7931C143B20003123B9 /* KVLLoaderViewController.swift */,
+			);
+			path = KVLAnimatedLoader;
+			sourceTree = "<group>";
+		};
+		C6BA5A661C14167200AD77F7 /* KVLAnimatedLoaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA5A671C14167200AD77F7 /* KVLAnimatedLoaderTests.swift */,
+				C6BA5A691C14167200AD77F7 /* Info.plist */,
+			);
+			path = KVLAnimatedLoaderTests;
+			sourceTree = "<group>";
+		};
+		C6BA5A711C14167200AD77F7 /* KVLAnimatedLoaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA5A721C14167200AD77F7 /* KVLAnimatedLoaderUITests.swift */,
+				C6BA5A741C14167200AD77F7 /* Info.plist */,
+			);
+			path = KVLAnimatedLoaderUITests;
+			sourceTree = "<group>";
+		};
+		C6BA5A821C1418C500AD77F7 /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA5A831C1418E600AD77F7 /* KVLRotationLoader.swift */,
+				C6D62C7E1C27076A00EDC48C /* KVLJumpingDotsLoader.swift */,
+			);
+			path = Loaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6BA5A4E1C14167200AD77F7 /* KVLAnimatedLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6BA5A771C14167200AD77F7 /* Build configuration list for PBXNativeTarget "KVLAnimatedLoader" */;
+			buildPhases = (
+				4578E04E603F729A961B9139 /* Check Pods Manifest.lock */,
+				C6BA5A4B1C14167200AD77F7 /* Sources */,
+				C6BA5A4C1C14167200AD77F7 /* Frameworks */,
+				C6BA5A4D1C14167200AD77F7 /* Resources */,
+				618D47437D3A85972ADA43B1 /* Embed Pods Frameworks */,
+				9B5642D61D72620709E8D3F4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVLAnimatedLoader;
+			productName = KVLAnimatedLoader;
+			productReference = C6BA5A4F1C14167200AD77F7 /* KVLAnimatedLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6BA5A621C14167200AD77F7 /* KVLAnimatedLoaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6BA5A7A1C14167200AD77F7 /* Build configuration list for PBXNativeTarget "KVLAnimatedLoaderTests" */;
+			buildPhases = (
+				C6BA5A5F1C14167200AD77F7 /* Sources */,
+				C6BA5A601C14167200AD77F7 /* Frameworks */,
+				C6BA5A611C14167200AD77F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6BA5A651C14167200AD77F7 /* PBXTargetDependency */,
+			);
+			name = KVLAnimatedLoaderTests;
+			productName = KVLAnimatedLoaderTests;
+			productReference = C6BA5A631C14167200AD77F7 /* KVLAnimatedLoaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6BA5A6D1C14167200AD77F7 /* KVLAnimatedLoaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6BA5A7D1C14167200AD77F7 /* Build configuration list for PBXNativeTarget "KVLAnimatedLoaderUITests" */;
+			buildPhases = (
+				C6BA5A6A1C14167200AD77F7 /* Sources */,
+				C6BA5A6B1C14167200AD77F7 /* Frameworks */,
+				C6BA5A6C1C14167200AD77F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6BA5A701C14167200AD77F7 /* PBXTargetDependency */,
+			);
+			name = KVLAnimatedLoaderUITests;
+			productName = KVLAnimatedLoaderUITests;
+			productReference = C6BA5A6E1C14167200AD77F7 /* KVLAnimatedLoaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6BA5A471C14167200AD77F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Misha Koval";
+				TargetAttributes = {
+					C6BA5A4E1C14167200AD77F7 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C6BA5A621C14167200AD77F7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C6BA5A4E1C14167200AD77F7;
+					};
+					C6BA5A6D1C14167200AD77F7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C6BA5A4E1C14167200AD77F7;
+					};
+				};
+			};
+			buildConfigurationList = C6BA5A4A1C14167200AD77F7 /* Build configuration list for PBXProject "KVLAnimatedLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6BA5A461C14167200AD77F7;
+			productRefGroup = C6BA5A501C14167200AD77F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6BA5A4E1C14167200AD77F7 /* KVLAnimatedLoader */,
+				C6BA5A621C14167200AD77F7 /* KVLAnimatedLoaderTests */,
+				C6BA5A6D1C14167200AD77F7 /* KVLAnimatedLoaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6BA5A4D1C14167200AD77F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BA5A5D1C14167200AD77F7 /* LaunchScreen.storyboard in Resources */,
+				C6BA5A8A1C142CB800AD77F7 /* Images.xcassets in Resources */,
+				C6BA5A5A1C14167200AD77F7 /* Assets.xcassets in Resources */,
+				C6BA5A811C1416EE00AD77F7 /* Podfile in Resources */,
+				C6BA5A581C14167200AD77F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BA5A611C14167200AD77F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BA5A6C1C14167200AD77F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4578E04E603F729A961B9139 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		618D47437D3A85972ADA43B1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B5642D61D72620709E8D3F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6BA5A4B1C14167200AD77F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BA5A881C1421AD00AD77F7 /* KVLLoaderProtocol.swift in Sources */,
+				C6D62C801C27086100EDC48C /* KVLJumpingDotsLoader.swift in Sources */,
+				C67CA7941C143B20003123B9 /* KVLLoaderViewController.swift in Sources */,
+				C6BA5A551C14167200AD77F7 /* ViewController.swift in Sources */,
+				C6BA5A531C14167200AD77F7 /* AppDelegate.swift in Sources */,
+				C6BA5A841C1418E600AD77F7 /* KVLRotationLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BA5A5F1C14167200AD77F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BA5A681C14167200AD77F7 /* KVLAnimatedLoaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BA5A6A1C14167200AD77F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BA5A731C14167200AD77F7 /* KVLAnimatedLoaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6BA5A651C14167200AD77F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6BA5A4E1C14167200AD77F7 /* KVLAnimatedLoader */;
+			targetProxy = C6BA5A641C14167200AD77F7 /* PBXContainerItemProxy */;
+		};
+		C6BA5A701C14167200AD77F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6BA5A4E1C14167200AD77F7 /* KVLAnimatedLoader */;
+			targetProxy = C6BA5A6F1C14167200AD77F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6BA5A561C14167200AD77F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6BA5A571C14167200AD77F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6BA5A5B1C14167200AD77F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6BA5A5C1C14167200AD77F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6BA5A751C14167200AD77F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6BA5A761C14167200AD77F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6BA5A781C14167200AD77F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A472D38BD8B33EE282A71C91 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KVLAnimatedLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = la.gis.KVLAnimatedLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6BA5A791C14167200AD77F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90A3FE8CDDFAB5334BF71E0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KVLAnimatedLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = la.gis.KVLAnimatedLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6BA5A7B1C14167200AD77F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KVLAnimatedLoaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matechapps.KVLAnimatedLoaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVLAnimatedLoader.app/KVLAnimatedLoader";
+			};
+			name = Debug;
+		};
+		C6BA5A7C1C14167200AD77F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KVLAnimatedLoaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matechapps.KVLAnimatedLoaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVLAnimatedLoader.app/KVLAnimatedLoader";
+			};
+			name = Release;
+		};
+		C6BA5A7E1C14167200AD77F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KVLAnimatedLoaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matechapps.KVLAnimatedLoaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KVLAnimatedLoader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C6BA5A7F1C14167200AD77F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KVLAnimatedLoaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matechapps.KVLAnimatedLoaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KVLAnimatedLoader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6BA5A4A1C14167200AD77F7 /* Build configuration list for PBXProject "KVLAnimatedLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BA5A751C14167200AD77F7 /* Debug */,
+				C6BA5A761C14167200AD77F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6BA5A771C14167200AD77F7 /* Build configuration list for PBXNativeTarget "KVLAnimatedLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BA5A781C14167200AD77F7 /* Debug */,
+				C6BA5A791C14167200AD77F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6BA5A7A1C14167200AD77F7 /* Build configuration list for PBXNativeTarget "KVLAnimatedLoaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BA5A7B1C14167200AD77F7 /* Debug */,
+				C6BA5A7C1C14167200AD77F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6BA5A7D1C14167200AD77F7 /* Build configuration list for PBXNativeTarget "KVLAnimatedLoaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BA5A7E1C14167200AD77F7 /* Debug */,
+				C6BA5A7F1C14167200AD77F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6BA5A471C14167200AD77F7 /* Project object */;
+}
