@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     var c : UIViewController? = nil;
     var scrollView: UIScrollView? = nil;
     
+    let loaderControllers = NSMutableArray()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -58,6 +60,7 @@ class ViewController: UIViewController {
             self.scrollView!.contentSize.height + 10,
             loaderController.view.size.width,
             loaderController.view.size.height)
+        self.loaderControllers.addObject(loaderController)
         
         self.scrollView!.addSubview(loaderController.view)
         self.scrollView!.contentSize = CGSizeMake(self.scrollView!.contentSize.width, loaderController.view.endY + 10)
